@@ -1,6 +1,6 @@
-from django.apps import AppConfig
-
+﻿from django.apps import AppConfig
 
 class MusicConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'music'
+    name = 'apps.music'
+    verbose_name = 'Music Service'
